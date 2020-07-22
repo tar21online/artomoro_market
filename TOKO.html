@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>My Webpage</title>
+        <style type="text/css">
+        .container{
+            width: auto;
+
+        }
+        .header{
+            background-color: #eee;
+            min-height: 50px;
+            text-align: center;
+        }
+
+        .logo img {
+            width: 200px;
+
+        }
+        .menu ul{
+            padding: 0;
+        }
+
+        .menu ul li{
+            display: inline-block;
+        }
+        .menu ul li a {
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .content{
+            background-color: #ddd;
+            min-height: 500px;
+            overflow: auto;
+            text-align: center;
+        }
+        .thumbnail{
+            background-color: white;
+            text-align: center;
+            padding: 15PX;
+            width: 325px;
+            margin: 10px;
+            float: left;
+        }
+        .thumbnail img{
+            width: 100%;
+        }
+        .footer{   
+            background-color: #ccc;
+            min-height: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        ul.submenu {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        text-align: left;
+        }
+
+        ul.submenu li {
+        display: block;
+        }
+
+        ul.submenu li a {
+        display: block;
+        padding: 5px 10px;
+        }
+
+        ul.submenu li {
+        display: block;
+        }
+
+        ul.submenu li a {
+        display: block;
+        padding: 5px 10px;
+        }
+
+        .menu ul li {
+        display: inline-block;
+        position: relative;
+        }
+
+        ul.submenu {
+        background-color: #eee;
+        border: 1px solid #ccc;
+        text-align: left;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        display: none;
+        z-index:99999;
+        }
+
+        .menu ul li:hover ul.submenu  {
+        display: block;
+        }
+
+        .jumbotron {
+        width: 100%;
+        padding: 100px 10px;
+        box-sizing: border-box;
+        text-align: center;
+        color: white;
+        background-color: #aaa;
+        }
+
+
+        .jumbotron {
+        background-color: #aaa;
+        background-image: url(https://lh3.googleusercontent.com/xypkQ0mupbbUtWWzxggtcpCos7U38raULLcrH7ydCDrt-Tqyx-Cesu_YabrQKI6wAmytwA=s170);
+        background-size: cover;
+        }   
+
+        .jumbotron {
+        background-size: cover;
+        position: relative;
+        }
+
+        .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+        }
+
+        .jumbotron h2,
+        .jumbotron p {
+        position: relative;
+        }
+
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="header">
+                <div class="logo"><img src="https://i.ibb.co/7bQ4mVX/images.png"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        
+                        <li><a href="#">About</a>
+                            <ul class="submenu">
+                                <li><a href="#">CV</a></li>
+                                <li><a href="#">Education</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="jumbotron">
+                <div class="overlay"></div>
+                <h2>Welcome to My Homepage</h2>
+                <p>Pembeli adalah raja </p>
+                <br></br>
+                <p>Penjual adalah dewa</p>
+            </div>
+            
+            <div class="content">
+                <h2>My Products</h2>
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/8Tr9IJ5JJTwuu6IXyxo-ZOmh8UVgSNj8LdmxtG1s5iS_OZQmfbjhpjbV6Wx8udE902wnzA=s142" >
+                    <h2>1</h2>
+                    <p>Rp 250.000</p>
+                </div>
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/CGIlp1of98cud-ICLbg60XXzSk3OwYLe4FhRv9QDmwq-_MTU2Gx3v7mg06LiEDinB1NnLA=s142" >
+                    <h2>2</h2>
+                    <p>Rp 250.000</p>
+                </div>
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/o_GeYoa1rXzGuonLlUsWYJGT6xQc5xmFTbOH6-65_8L2pgYvVaQVGbQNEDzffrF_cDbtSb8=s142">
+                    <h2>3</h2>
+                    <p>Rp 250.000</p>
+                </div>
+
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/fyc2kPdtGQg7qp3caBAawpUr-kffLNW68AAR5U8hmb-QcTil4Q2K8kof7-ODWnKCLyBTiyU=s142">
+                    <h2>4</h2>
+                    <p>Rp 250.000</p>
+                </div>
+
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/_i1HMRp0i7z3avAnrpW-vA9t8ANwyss9GxIkIdPOHjdoFqKVT8l8TfnbPRuZKMod5eK6vg=s142">
+                    <h2>5</h2>
+                    <p>Rp 250.000</p>
+                </div>
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/JW5dtODl4l6p8crY72cnBz_MbpXMUGFH3dQjgqbxXgPq2o7b-Ec7acZNOLacHX_e-WdoLw=s142">
+                    <h2>6</h2>
+                    <p>Rp 250.000</p>
+                </div>
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/_bKgY4yvUR_M2sH-1dJVOxRCItE4drThIouy9wN87bFbvKzKKiKVJhOER-AQbz96-LI2HkA=s142">
+                    <h2>7</h2>
+                    <p>Rp 250.000</p>
+                </div>
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/puVaypva6C6OjNrgzIlOmfduMyRy2VfSyzZVbSopD0tq70tk5iHR5kClAW1AHfVULCuc=s142">
+                    <h2>8</h2>
+                    <p>Rp 250.000</p>
+                </div>
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/6TArq1O3fhmI0KFFol9hCPRdCLosub_nIYFEiCAIYTPtd_p4SqM-_z3Mtbep07BIR1ts=s142">
+                    <h2>9</h2>
+                    <p>Rp 250.000</p>
+                </div>
+                <div class="thumbnail">
+                    <img src="https://lh3.googleusercontent.com/lPk_SzB4jjhHFt0dsi1Sin8Sdj88GFItm02AzB41_CdC3f8fY360Ry-fk7CeqWD2QGnjfg=s142">
+                    <h2>10</h2>
+                    <p>Rp 250.000</p>
+                </div>
+                
+            </div>
+
+            <div class="footer">
+                <p>artomoro_market</p>
+            </div>
+
+        </div>
+
+    </body>
+</html>
